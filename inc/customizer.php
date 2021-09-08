@@ -186,7 +186,7 @@ function meiaponte_customizer( $meiaponte_customize ){
     );
 
     //
-    // Utilities Sectopn
+    // Utilities Section
     //
     $meiaponte_customize->add_section(
         'sec_utilities', array(
@@ -238,7 +238,7 @@ function meiaponte_customizer( $meiaponte_customize ){
     );
     $meiaponte_customize->add_control(
         'set_utilities_text_2', array(
-            'label' => __('Events', 'meiaponte'),
+            'label' => __('Meets', 'meiaponte'),
             'description' => __('Type your text', 'meiaponte'),
             'section' => 'sec_utilities',
             'type' => 'textarea'
@@ -253,7 +253,7 @@ function meiaponte_customizer( $meiaponte_customize ){
     );
     $meiaponte_customize->add_control(
         'set_utilities_link_2', array(
-            'label' => __('Link for Events', 'meiaponte'),
+            'label' => __('Link for Meets', 'meiaponte'),
             'description' => __('Type your link', 'meiaponte'),
             'section' => 'sec_utilities',
             'type' => 'text',
@@ -272,7 +272,7 @@ function meiaponte_customizer( $meiaponte_customize ){
     );
     $meiaponte_customize->add_control(
         'set_utilities_text_3', array(
-            'label' => __('Events', 'meiaponte'),
+            'label' => __('Documents', 'meiaponte'),
             'description' => __('Type your text', 'meiaponte'),
             'section' => 'sec_utilities',
             'type' => 'textarea'
@@ -287,7 +287,7 @@ function meiaponte_customizer( $meiaponte_customize ){
     );
     $meiaponte_customize->add_control(
         'set_utilities_link_3', array(
-            'label' => __('Link for Events', 'meiaponte'),
+            'label' => __('Link for Documents', 'meiaponte'),
             'description' => __('Type your link', 'meiaponte'),
             'section' => 'sec_utilities',
             'type' => 'text',
